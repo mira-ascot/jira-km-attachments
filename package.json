@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/index.js",
-    "start": "node src/index.js"},
+    "start": "node src/index.js"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/mira-ascot/jira-km-attachments.git"
@@ -16,7 +17,9 @@
     "axios": "^1.13.2",
     "dotenv": "^17.2.3",
     "express": "^5.1.0",
-    "form-data": "^4.0.4"
+    "follow-redirects": "^1.15.11",
+    "form-data": "^4.0.5",
+    "he": "^1.2.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.11"
