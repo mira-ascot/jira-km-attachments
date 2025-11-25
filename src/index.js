@@ -1,7 +1,7 @@
 const express = require('express');
 const { PORT } = require('./config');
 const attachRoute = require('./routes/attach');
-const ticketRouter = require('./routes/tickets');
+const ticketRouter = require('./routes/uvdesk');
 
 const app = express();
 app.use(express.json());
